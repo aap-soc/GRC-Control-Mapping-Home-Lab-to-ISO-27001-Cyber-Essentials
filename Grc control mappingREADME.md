@@ -1,4 +1,4 @@
-# GRC Control Mapping — Home Lab to ISO 27001 & Cyber Essentials
+# GRC Control Mapping - Home Lab to ISO 27001 & Cyber Essentials
 
 A short governance, risk and compliance (GRC) exercise that maps the security
 controls I built in my home labs to two recognised frameworks: the **UK Cyber
