@@ -4,7 +4,7 @@ A short governance, risk and compliance (GRC) exercise that maps the security
 controls I built in my home labs to two recognised frameworks: the **UK Cyber
 Essentials** five technical controls and **ISO/IEC 27001:2022 Annex A**. It also
 includes a simple **risk register**. The goal is to show that hands-on security
-work can be expressed in the language of risk, controls and audit — the way a
+work can be expressed in the language of risk, controls and audit - the way a
 GRC or Information Security team documents it.
 
 > **Why this exists:** controls are only half the job; being able to map them to a
@@ -40,7 +40,7 @@ implemented in the lab and an honest status.
 | 2 | **Secure configuration** | M365 tenant hardened with separate Global Admin / Security Admin accounts; AWS S3 public access blocked; root MFA enforced; default/unneeded access removed | **Met** |
 | 3 | **User access control** | Entra ID quarterly access review with audit evidence; least privilege and separation of duties; AWS IAM users/groups; Linux least-privilege permissions (chmod 640) | **Met** |
 | 4 | **Malware protection** | Microsoft Defender XDR / Defender antivirus on the Windows endpoint | **Met** |
-| 5 | **Security update management (patching)** | Not yet formally documented | **Gap — next step** |
+| 5 | **Security update management (patching)** | Not yet formally documented | **Gap - next step** |
 
 **Identified gap & treatment:** patch/update management is the one control I have
 not evidenced. *Planned action:* document applying OS and application updates on
@@ -91,7 +91,7 @@ A lightweight register for the lab assets. Risk rating = Likelihood × Impact
 
 ## Key takeaways
 
-- The same lab work maps cleanly onto **both** Cyber Essentials and ISO 27001 —
+- The same lab work maps cleanly onto **both** Cyber Essentials and ISO 27001 -
   frameworks describe *outcomes*, and good controls satisfy several at once.
 - **Evidence matters:** every control above has an artefact behind it (a screenshot,
   a config, a case note) in the linked repos — which is what an auditor asks for.
