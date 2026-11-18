@@ -1,4 +1,4 @@
-# Cyber Essentials — The Five Controls (Reference)
+# Cyber Essentials - The Five Controls (Reference)
 
 A quick reference to the five Cyber Essentials technical controls, how each one
 works, and where I have applied it in my labs. It pairs with the Cyber Essentials
