@@ -47,6 +47,13 @@ not evidenced. *Planned action:* document applying OS and application updates on
 the Windows and Ubuntu VMs, confirm auto-update settings, and record it here.
 (Identifying and tracking a gap is itself part of the GRC process.)
 
+**Second gap - unsupported operating system:** my Windows 10 endpoint no longer
+receives free security updates (support ended 14 October 2025). Under Cyber
+Essentials this would fail unless the device is enrolled in Microsoft's Extended
+Security Updates (ESU) or upgraded. *Planned action:* upgrade the lab VM to
+Windows 11. (In a real organisation, unsupported software must be updated,
+covered by ESU, or removed from scope.)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -85,6 +92,7 @@ A lightweight register for the lab assets. Risk rating = Likelihood × Impact
 | AWS S3 (sensitive data) | Data exposure | Public bucket access | Low | High | **Medium** | Block public access, SSE-KMS encryption (A.8.3, A.8.24) |
 | Cloud admin identities | Account takeover | Single over-privileged admin | Low | High | **Medium** | Separation of duties, least privilege, MFA, access reviews (A.5.3, A.8.2, A.5.18) |
 | All hosts | Exploited known flaw | Missing patches | Medium | High | **High** | Patch/update management *(gap — see Part A)* (A.8.8) |
+| Windows 10 endpoint | Exploited known flaw | Operating system out of support (no free security updates) | Medium | High | **High** | Upgrade to Windows 11 or enrol in ESU (A.8.8) |
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
